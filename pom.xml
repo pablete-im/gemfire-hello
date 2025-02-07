@@ -20,7 +20,7 @@
     <repository>
       <id>gemfire-release-repo</id>
       <name>VMware GemFire Release Repository</name>
-      <url>https://commercial-repo.pivotal.io/data3/gemfire-release-repo/gemfire</url>
+      <url>https://packages.broadcom.com/artifactory/gemfire/</url>
     </repository>
 </repositories>
 
@@ -28,17 +28,17 @@
     <dependency>
       <groupId>com.vmware.gemfire</groupId>
       <artifactId>gemfire-core</artifactId>
-      <version>10.1.0</version>
+      <version>10.1.2</version>
     </dependency>
     <dependency>
       <groupId>com.vmware.gemfire</groupId>
       <artifactId>gemfire-log4j</artifactId>
-      <version>10.1.0</version>
+      <version>10.1.2</version>
     </dependency>
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-slf4j-impl</artifactId>
-      <version>2.23.1</version>
+      <version>2.24.3</version>
     </dependency>
 </dependencies>
 
